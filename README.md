@@ -10,7 +10,7 @@ The first few Problem Sets, including this one, get you used to logical thinking
 
 This is the first PSet. It familiarizes you with both the process that future Psetss will follow and the kind of thinking that will be required for them.
 
-# Background
+# Background and requirement
 
 To attempt and submit the task you will need
 - some time to sit and think deeply
@@ -19,7 +19,7 @@ To attempt and submit the task you will need
 
 # Grading
 
-Grading is as per the rubric shared on Canvas.
+Grading is described on Canvas.
 
 # Task
 
