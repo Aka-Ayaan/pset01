@@ -20,18 +20,39 @@
     \part A says ``At least one of us is a knave'' and B says nothing.
     \begin{solution}
       % Enter your solution here.
+
+      There are two possibilities:
+      \begin{enumerate}
+        \item \textbf{A is a knight and B is a knave.}
+        
+        This means that A is telling the truth implying the fact that B is a knave since one of them has to be a knave (according to A's statement). 
+        \item \textbf{A is a knave and B's identity is unknown.}
+        
+        For this case if A is a knave then the statement is false and B can be either a knight or a knave due to a lack of information about B (if A is a knave). 
+      \end{enumerate}
     \end{solution}
     \part A says ``The two of us are both knights'' and B says ``A is a knave''.
     \begin{solution}
       % Enter your solution here.
+        \textbf{A is a knave and B is a knight.}
+        \begin{itemize}
+          \item If A is a knight then they would be telling the truth and B would be a knave which would be a contradiction to B's statement proving that A is a knave.
+          \item B should be a knight as they are telling the truth about A being a knave (given that a is a knave).
+        \end{itemize} 
     \end{solution}
     \part Both A and B say ``I am a knight.''
     \begin{solution}
       % Enter your solution here.
+      \textbf{No deductions are possible as both of them could either be knights and/or knaves.}
     \end{solution}
     \part A says “We are both knaves” and B says nothing.
     \begin{solution}
       % Enter your solution here.
+        \textbf{A is a knave and B's identity is unknown.}
+        \begin{itemize}
+          \item If A is a knight it would be a contradiction to their own statement proving that A is a knave.
+          \item B's identity cannot be determined as they did not make any statement and A's statement is false (given that A is a knave).
+        \end{itemize}
     \end{solution}
   \end{parts}
   
@@ -40,21 +61,53 @@
   How did the server figure out who wanted the cake?
   \begin{solution}
     % Enter your solution here.
+    
+    In my opinion the first two friends said "I don't know" because they were unsure about what everyone else wanted.
+    
+    The server figured out who wanted the cake by considering the possibilities:
+    \begin{itemize}
+      \item The first friend said "I don't know" because he wanted the cake but was unsure about what the other two friends wanted.
+      \item The second friend said "I don't know" because of the same reason as the first friend.
+      \item The third friend said "No, not everyone wants cake" because he did not want the cake implying that atleast one of the three friends didnot want the cake.
+    \end{itemize}
+    Thus, the server gave cake to the first two friends as the third friend had indicated a preference against it.
   \end{solution}
   
   \question An ancient Sicilian legend says that the barber in a remote town who can be reached only by traveling a dangerous mountain road shaves those people, and only those people, who do not shave themselves. Can there be such a barber? (\textit{Hint}: think about who shaves the barber.)
   \begin{solution}
     % Enter your solution here.
+    
+    The question provides two conditions:
+    \begin{itemize}
+      \item If the barber shaves those people who do not shave themselves then he must not shave himself.
+      \item Based on the first condition, if the barber does not shave himself then he should be shaved by the barber as the barber shaves those who donot shave themselves.
+    \end{itemize}
+    This ends up creating a logical contradiction as the legend sets up an impossible scenario and so. logically, such a barber cannot exist. 
   \end{solution}
   
   \question A father tells his two children, a boy and a girl, to play in their backyard without getting dirty. However, while playing, both children get mud on their foreheads. When the children stop playing, the father says ``At least one of you has a muddy forehead,'' and then asks the children to answer ``Yes'' or ``No'' to the question: ``Do you know whether you have a muddy forehead?'' The father asks this question twice. What will the children answer each time this question is asked, assuming that a child can see whether his or her sibling has a muddy forehead, but cannot see his or her own forehead? Assume that both children are honest and that the children answer each question simultaneously.
   \begin{solution}
     % Enter your solution here.
+    We already know that both children have mud on their foreheads then the father established that "atleast" one of them has a muddy forehead. Then he asked the question:
+    \begin{itemize}
+      \item Do you know whether you have a muddy forehead? (asked twice)
+    \end{itemize}
+    Both children, being honest, will answer "No" to the question first time. This is because they can see mud on the other child's forehead but cannot see their own forehead and hence cannot know whether they have a muddy forehead or not. The second time the question is asked, both will answer "Yes" because they know that the other child has a muddy forehead and hence they must have a muddy forehead too as the answer of the other child to the first question was "No".
   \end{solution}
   
   \question At a fashion show, Mehwish would like to determine the relative salaries of three coworkers using two facts. First, she knows that if Zara is not the highest paid of the three, then Rubya is. Second, she knows that if Rubya is not the lowest paid, then Amna is paid the most. Is it possible to determine the relative salaries of Zara, Amna, and Rubya from what Mehwish knows? If so, who is paid the most and who the least? Explain your reasoning.
   \begin{solution}
     % Enter your solution here.
+    
+    Yes, Mehwish can determine the relative salaries of Zara, Amna, and Rubya. By considering the possibilties:
+    \begin{enumerate}
+      \item If Zara is not the highest paid of the three, then Rubya is the highest paid. 
+      \item If Rubya is not the lowest paid, then Amna is paid the most.
+    \end{enumerate}
+    From this Mehwish can conclude that \textbf{Zahra is the highest paid, Amna is paid second highest, and Rubya is paid the least.}
+
+    \textbf{\textit{Proof:}} From the second condition we cnan infer that Rubya is either 1st or 2rd for Amna to be 1st. The posibility of Rubya being 1st is eliminated if amna is to be 1st.
+    Combining this with the frst condition it is safe to assume that Zahra is 1st and Rubya is not. This leaves us with the possibility of Rubya being 3rd and Amna being 2nd as Amna will become 1st if Rubya is 2nd contradicting the first claim of Zahra being 1st.
   \end{solution}
 \end{questions}
 \end{document}
